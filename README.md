@@ -14,3 +14,6 @@ The program focuses on core functionality and does not include advanced features
 Perfect for practicing basic logic and control flow!
 
 Let me know if you want to add input validation, error handling (like divide-by-zero), or even a GUI version. I can help modularize it to match your style.
+
+Deadline:
+20/09/2025 
