@@ -7,10 +7,13 @@ qt_standard_project_setup()
 
 qt_add_executable(Simple_Callculator
     WIN32 MACOSX_BUNDLE
-    main.cpp
+
     mainwindow.cpp
     mainwindow.h
     mainwindow.ui
+    Logic.cpp
+    Logic.h
+    main.cpp
 )
 
 target_link_libraries(Simple_Callculator
