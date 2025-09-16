@@ -25,8 +25,11 @@ MainWindow::~MainWindow()
 void MainWindow::on_Callculate_clicked()
 {
     string input;
+
     input = ui->Input->text().toStdString();
+
     double result = evaluate(input);
     ui->Result->setText(QString::number(result));
+
 }
 
